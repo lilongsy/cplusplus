@@ -15,7 +15,7 @@ int main(){
 	ostream_iterator<int> output_even(even, " ");
 	while (it != eof)
 	{
-		if (*it % 2 != 0){
+		if (*it % 2 == 0){
 			*output_even++ = *it++;
 		}
 		else
