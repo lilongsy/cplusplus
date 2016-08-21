@@ -1,7 +1,6 @@
 #include <iostream>
 #include <algorithm>
 #include <iterator>
-#include <vector>
 #include <fstream>
 using namespace std;
 
